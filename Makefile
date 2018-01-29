@@ -1,7 +1,7 @@
 CONTAINER=certbot
-DOMAINS="s5h.net usenix.org.uk"
-WWWROOT="/var/www/sites/www"
-CSRROOT="/var/www/sites/"
+DOMAINS=s5h.net usenix.org.uk
+WWWROOT=/var/www/sites/www
+CSRROOT=/var/www/sites/
 
 all: build run remove
 
