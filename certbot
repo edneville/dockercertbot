@@ -1,0 +1,2 @@
+MAILTO=ed-cron@s5h.net
+9  13 * * mon,wed,sat root cd /root/certbot/ && make all
